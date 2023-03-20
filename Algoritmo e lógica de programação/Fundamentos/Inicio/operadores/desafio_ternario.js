@@ -9,8 +9,6 @@ const resultado =
     ? a - b
     : operacao === "/"
     ? a / b
-    : operacao === "*"
-    ? a * b
-    : 0;
+    : a * b;
 
 console.log(resultado);
